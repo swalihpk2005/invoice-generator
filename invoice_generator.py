@@ -1,0 +1,15 @@
+print("==== INVOICE GENERATOR ====")
+customer_name=input("Enter name of the customer: ")
+product=input("Enter name of product: ")
+quantity=int(input("Quantity: "))
+unit_price=float(input("Price of One unit: "))
+total=quantity*unit_price
+print(f"Total: {total}")
+
+print("\n========== INVOICE ==========")
+print(f"Customer : {customer_name}")
+print(f"Product  : {product}")
+print(f"Quantity : {quantity}")
+print(f"Unit Price: ₹{unit_price:.2f}")
+print(f"Total    : ₹{total:.2f}")
+print("=============================")
